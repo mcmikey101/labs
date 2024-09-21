@@ -45,9 +45,7 @@ def is_prime(number):
         if number % i == 0:
             prime = False
             break
-    if prime:
-        return True
-    return False
+    return prime
 
 print(is_prime(4))
 print(is_prime(7))
